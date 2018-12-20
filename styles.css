@@ -2,16 +2,46 @@ body {
 	background-color: rgb(0, 56, 100);
 }
 
-ul {
+.menu-bar {
+	height: 200px;
+}
+
+ul.menu-list {
+	float: right;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-ul.menu-list li a {
+li.menu-button {
 	float: right;
 	padding: 16px;
-	font-family: "Courier New";
-	text-decoration: none;
+	font-family: "courier";
+	outline-style: 
+}
+
+a:link {
+  color: white; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.about-detail {
+	text-align: center;
+	font-family: sans-serif;
 	color: white;
 }
