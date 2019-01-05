@@ -1,0 +1,44 @@
+body {
+	background-color: rgb(0, 75, 83);
+}
+
+#menu, #testing {
+	margin-top: 20px;
+	padding: 10px, 0px, 5px, 0px;
+}
+
+.menu-bar {
+	margin: 30px;
+	text-align: right;
+}
+
+.menu-bar-item a:link {
+	text-decoration: none;
+	color: white;
+}
+
+.menu-bar-item a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.menu-bar-item a:hover {
+	text-decoration: none;
+	color: cyan;
+}
+
+.menu-bar-item a:active {
+	text-decoration: none;
+	color: white;
+}
+
+.menu-bar li {
+	display: inline;
+	padding: 5px;
+	font-family: "New Courier", Courier, monospace;
+}
+
+li.resume {
+	border: 5px double #0088dd;
+}
+
