@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(0, 75, 83);
+	background-color: rgb(0, 25, 50);
 }
 
 #menu, #testing {
@@ -39,6 +39,6 @@ body {
 }
 
 li.resume {
-	border: 5px double #0088dd;
+	border: 5px double cyan;
 }
 
