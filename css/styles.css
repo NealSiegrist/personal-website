@@ -12,12 +12,7 @@ body {
 	text-align: right;
 }
 
-.menu-bar-item a:link {
-	text-decoration: none;
-	color: white;
-}
-
-.menu-bar-item a:visited {
+.menu-bar-item a:link, .menu-bar-item a:visited, .menu-bar-item a:active{
 	text-decoration: none;
 	color: white;
 }
@@ -25,12 +20,7 @@ body {
 .menu-bar-item a:hover {
 	text-decoration: none;
 	color: cyan;
-}
-
-.menu-bar-item a:active {
-	text-decoration: none;
-	color: white;
-}
+}	
 
 .menu-bar li {
 	display: inline;
