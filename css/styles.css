@@ -1,10 +1,6 @@
 body {
 	background-color: rgb(0, 25, 50);
-}
-
-#menu, #testing {
-	margin-top: 20px;
-	padding: 10px, 0px, 5px, 0px;
+	width: 100%;
 }
 
 .menu-bar {
@@ -31,4 +27,3 @@ body {
 li.resume {
 	border: 5px double cyan;
 }
-
