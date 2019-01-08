@@ -1,3 +1,7 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;
+}
+
 body {
 	background-color: rgb(0, 25, 50);
 	width: 100%;
@@ -6,6 +10,11 @@ body {
 .menu-bar {
 	margin: 30px;
 	text-align: right;
+}
+
+.menu-bar li:first-child {
+	float: left;
+	color: white;
 }
 
 .menu-bar-item a:link, .menu-bar-item a:visited, .menu-bar-item a:active{
@@ -26,4 +35,18 @@ body {
 
 li.resume {
 	border: 5px double cyan;
+}
+
+.section-header {
+	color:white;
+}
+
+.about-content, .project-content, .experience-content{
+	width: 460px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.about-content p {
+	color: white;
 }
