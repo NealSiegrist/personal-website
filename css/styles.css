@@ -31,6 +31,7 @@ body {
 	display: inline;
 	padding: 5px;
 	font-family: "New Courier", Courier, monospace;
+	letter-spacing: 0.2px;
 }
 
 li.resume {
@@ -38,15 +39,86 @@ li.resume {
 }
 
 .section-header {
+	font-size: 26px;
+	font-weight: bold;
 	color:white;
+	margin-bottom: 0px;
 }
 
 .about-content, .project-content, .experience-content{
-	width: 460px;
+	width: 720px;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
-.about-content p {
-	color: white;
+.section-text {
+	color: rgb(135, 150, 170);
+}
+
+.text-link:link, .text-link:visited, .text-link:active{
+	text-decoration: none;
+	color: cyan;
+}
+
+.text-link:hover {
+	text-decoration: underline;
+	color: cyan;
+}
+
+.movie-recommender {
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.movie-recommender img {
+	opacity: 0.9;
+	width: 500px;
+	height: 400px;
+}
+
+.movie-recommender img:hover {
+	opacity: 1;
+}
+
+
+.movie-recommender-text {
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  bottom: 100px;
+  right: 0px;
+  background-color: rgba(40, 20, 70, 0.6);
+  color: rgb(135, 150, 170);
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.movie-recommender-text:hover {
+	background-color: rgba(40, 20, 70, 0.8);
+}
+
+.movie-recommender-text ul li {
+	float: left;
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-right: 1em;
+}
+
+
+
+
+
+.personal-website {
+	height: 200px;
+	border: 1px solid red; 
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.personal-website p{
+	color: rgb(135, 150, 170);
+	margin: 10px;
 }
