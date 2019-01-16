@@ -66,20 +66,20 @@ li.resume {
 }
 
 .movie-recommender {
-	height: 500px;
+	height: 450px;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	position: relative;
 }
 
 .movie-recommender img {
-	opacity: 0.9;
+	opacity: 0.75;
 	width: 500px;
 	height: 400px;
 }
 
-.movie-recommender img:hover {
+.movie-recommender img:hover, .website img:hover {
 	position: relative;
 	opacity: 1;
 }
@@ -90,25 +90,28 @@ li.resume {
 	width: 180px;
 	top: 0%;
 	left: 75%;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
   	background-color: rgb(0, 25, 50);;
   	color: cyan;
+  	text-align: center;
 }
 
 .movie-recommender-text {
-  position: absolute;
-  width: 350px;
-  height: 180px;
-  top: 20%;
-  left: 51%;
-  background-color: rgba(40, 20, 70, 0.6);
-  color: rgb(135, 150, 170);
-  padding: 5px;
+	border: solid 1px cyan;
+	position: absolute;
+	width: 350px;
+	height: 180px;
+	top: 20%;
+	left: 51%;
+	background-color: rgba(40, 20, 70, 0.6);
+	color: rgb(135, 150, 170);
+	padding: 5px;
 }
 
 .movie-recommender-text:hover {
 	background-color: rgba(40, 20, 70, 0.8);
+	border: solid 2px cyan;
 }
 
 .movie-recommender-text ul li {
@@ -128,14 +131,54 @@ li.resume {
 	list-style-type: none;
 }
 
-.personal-website {
-	height: 200px;
-	border: 1px solid red; 
+.website {
+	height: 450px;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
 }
 
-.personal-website p{
+.website img {
+	opacity: 0.75;
+	width: 500px;
+	height: 400px;
+	float: right;
+}
+
+.website-title {
+	position: absolute;
+	height: 30px;
+	width: 180px;
+	top: 0%;
+	left: 0%;
+	font-size: 20px;
+	font-weight: bold;
+  	background-color: rgb(0, 25, 50);;
+  	color: cyan;
+  	text-align: center;
+}
+
+.website-text {
+	border: solid 1px cyan;
+	position: absolute;
+	width: 350px;
+	height: 140px;
+	top: 20%;
+	left: 0%;
+	background-color: rgba(40, 20, 70, 0.6);
 	color: rgb(135, 150, 170);
-	margin: 10px;
+	padding: 5px;
+}
+
+.website-text:hover {
+	background-color: rgba(40, 20, 70, 0.8);
+	border: solid 2px cyan;
+}
+
+.website-text ul li {
+	float: left;
+    list-style-position: inside;
+    list-style-type: none;
+    margin-right: 1em;
 }
