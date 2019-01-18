@@ -57,10 +57,14 @@ li.resume {
 	margin-bottom: 0px;
 }
 
-.about-content, .project-content, .experience-content{
+.about-content, .project-content, .experience-content, .contact-content{
 	width: 720px;
 	margin: auto;
 	margin-top: 75px;
+}
+
+.experience-content {
+	margin-top: 10px;
 }
 
 .section-text {
@@ -147,7 +151,7 @@ li.resume {
 	height: 450px;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	position: relative;
 }
 
